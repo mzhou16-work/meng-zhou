@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Publications | Meng Zhou</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ORCID/bibtex-js@gh-pages/bibtex_js.js"></script>
 </head>
 <body class="bg-white text-gray-900 font-sans min-h-screen">
   <!-- Navbar -->
@@ -16,17 +17,17 @@
       <li><a href="media.html" class="hover:text-blue-600 transition">Media</a></li>
     </ul>
   </nav>
+  
   <main class="max-w-2xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-10">Publications</h1>
-
+    <h1 class="text-4xl font-bold mb-6">Publications</h1>
     <div class="mb-8">
-      <a href="https://scholar.google.com/citations?hl=en&user=9PWKigQAAAAJ&view_op=list_works" target="_blank" class="text-blue-600 hover:underline text-lg font-medium">
+      <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" class="text-blue-600 hover:underline text-lg font-medium">
         View all publications on Google Scholar &rarr;
       </a>
     </div>
-
     <!-- BibTeX Rendered Output -->
     <div class="bibtex_display"></div>
+    aaa
     <script type="text/bibtex">
       @article{wang2021quantifying,
         title={Quantifying uncertainties in nighttime light retrievals from Suomi-NPP and NOAA-20 VIIRS Day/Night Band data},
@@ -35,17 +36,12 @@
         volume={263},
         pages={112557},
         year={2021},
-        publisher={Elsevier}
-      }
-      <!-- Add more BibTeX entries here -->
+        publisher={Elsevier}}
     </script>
-
-    <script>
-      bibtex_js_draw();
-    </script>
-
+   <script>
+    bibtex_js_draw();
+  </script>
+    
   </main>
-
 </body>
-
 </html>
