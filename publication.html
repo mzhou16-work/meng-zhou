@@ -1,43 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Publications | Meng Zhou</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ORCID/bibtex-js@gh-pages/bibtex_js.js"></script>
 </head>
-<body class="bg-white text-gray-900 font-sans min-h-screen">
-  <!-- Navbar -->
-  <nav class="flex justify-end items-center p-6">
-    <ul class="flex space-x-8 text-lg font-medium">
-      <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
-      <li><a href="project.html" class="hover:text-blue-600 transition">Project</a></li>
-      <li><a href="publication.html" class="text-blue-600 font-bold">Publication</a></li>
-      <li><a href="media.html" class="hover:text-blue-600 transition">Media</a></li>
-    </ul>
-  </nav>
-  <main class="max-w-2xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-10">Publications</h1>
-    <div class="mb-6">
-      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="text-blue-600 hover:underline text-lg font-medium">
-        View my full up-to-date publication list on Google Scholar &rarr;
-      </a>
-    </div>
-    <ul class="list-disc pl-6 space-y-5 text-gray-800">
-      <li>
-        Zhou, M., et al. (2024). Nighttime Fire Detection with FILDA. <i>Remote Sensing of Environment</i>.
-        <a href="https://doi.org/10.1234/abcde" target="_blank" class="text-blue-600 hover:underline">[Link]</a>
-      </li>
-      <li>
-        Zhou, M., et al. (2023). Fire Emission Speciation Using Satellite Observations. <i>Journal of Geophysical Research</i>.
-        <a href="https://doi.org/10.5678/fghij" target="_blank" class="text-blue-600 hover:underline">[Link]</a>
-      </li>
-      <li>
-        Zhou, M., et al. (2021). FIREX-AQ Field Campaign: Insights from Post-Fire Analysis. <i>Atmospheric Environment</i>.
-        <a href="https://doi.org/10.9876/klmno" target="_blank" class="text-blue-600 hover:underline">[Link]</a>
-      </li>
-      <!-- Add more as needed -->
-    </ul>
-  </main>
+<body>
+  <h2 class="text-2xl font-bold mb-4">Publications</h2>
+  <div class="bibtex_display"></div>
+  <script type="text/bibtex">
+    @article{wang2021quantifying,
+      title={Quantifying uncertainties in nighttime light retrievals from Suomi-NPP and NOAA-20 VIIRS Day/Night Band data},
+      author={Wang, Zhuosen and Rom{\'a}n, Miguel O and Kalb, Virginia L and Miller, Steven D and Zhang, Jianglong and Shrestha, Ranjay M},
+      journal={Remote Sensing of Environment},
+      volume={263},
+      pages={112557},
+      year={2021},
+      publisher={Elsevier}
+    }
+
+  </script>
+  <script>
+    bibtex_js_draw();
+  </script>
 </body>
-</html>
