@@ -1,23 +1,65 @@
-<script src="https://cdn.tailwindcss.com"></script>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Meng Zhou - Research Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meng Zhou | Research Scientist</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Your Name</h1>
-    <p>i am a Assistant Research Scientist<br>NASA Goddard Space Flight Center</p>
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Wildfire remote sensing</li>
-      <li>Satellite-based emission estimation</li>
-      <li>Air quality forecasting</li>
+<body class="bg-white text-gray-900 font-sans min-h-screen">
+
+  <!-- NAVBAR -->
+  <nav class="flex justify-end items-center p-6">
+    <ul class="flex space-x-8 text-lg font-medium">
+      <li><a href="#projects" class="hover:text-blue-600 transition">Project</a></li>
+      <li><a href="#publications" class="hover:text-blue-600 transition">Publication</a></li>
+      <li><a href="#media" class="hover:text-blue-600 transition">Media</a></li>
     </ul>
-    <h2>Publications</h2>
-    <ul>
-      <li>Author, A. (2024). <i>Paper Title</i>. Journal Name.</li>
-    </ul>
-    <h2>Contact</h2>
-    <p>mzhou16@umbc.edu</p>
+  </nav>
+
+  <!-- MAIN HERO CONTENT -->
+  <main class="flex flex-col items-center justify-center text-center mt-24">
+    <div class="max-w-2xl w-full px-4">
+      <h1 class="text-5xl font-bold mb-4 tracking-tight">Meng Zhou</h1>
+      <p class="text-xl text-gray-500 mb-8">
+        Assistant Research Scientist <br>
+        NASA Goddard Space Flight Center & UMBC
+      </p>
+      <div class="bg-gray-100 rounded-2xl shadow-lg p-6 mb-8">
+        <h2 class="text-2xl font-semibold mb-2">About</h2>
+        <p>
+          I develop algorithms for satellite-based wildfire and emission monitoring, with a focus on near real-time applications and model–data integration for air quality forecasting.
+        </p>
+      </div>
+      <div class="flex justify-center space-x-6 text-gray-500">
+        <span>meng.zhou@umbc.edu</span>
+        <span>|</span>
+        <a href="https://scholar.google.com" target="_blank" class="hover:text-blue-600">Google Scholar</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- OPTIONAL: Sections below for navigation targets -->
+  <section id="projects" class="pt-32 pb-12 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <p class="text-gray-600">Showcase your research projects here.</p>
+    </div>
+  </section>
+
+  <section id="publications" class="pt-32 pb-12 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Publications</h2>
+      <p class="text-gray-600">Highlight your selected publications here.</p>
+    </div>
+  </section>
+
+  <section id="media" class="pt-32 pb-12 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Media</h2>
+      <p class="text-gray-600">Media appearances, news, or public outreach here.</p>
+    </div>
+  </section>
 </body>
 </html>
