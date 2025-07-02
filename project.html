@@ -3,112 +3,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projects | Meng Zhou</title>
+  <title>Dr. Meng Zhou | Assitant Research Scientist</title>
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-900 font-sans min-h-screen">
 
-  <!-- Navbar -->
+  <!-- NAVBAR -->
   <nav class="flex justify-end items-center p-6">
     <ul class="flex space-x-8 text-lg font-medium">
-      <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
-      <li><a href="project.html" class="text-blue-600 font-bold">Project</a></li>
-      <li><a href="publication.html" class="hover:text-blue-600 transition">Publication</a></li>
-      <li><a href="media.html" class="hover:text-blue-600 transition">Media</a></li>
+      <li>
+        <a href="project.html" class="hover:text-blue-600 transition">Project</a>
+      </li>
+      <li>
+        <a href="publication.html" class="hover:text-blue-600 transition">Publication</a>
+      </li>
+      <li>
+        <a href="media.html" class="hover:text-blue-600 transition">Media</a>
+      </li>
     </ul>
   </nav>
 
-  <main class="max-w-2xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-10">Projects</h1>
-
-    <!-- Project 1 -->
-    <section id="filda" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
-      <div class="flex flex-col md:flex-row md:items-center mb-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/University_of_Iowa_seal.svg" alt="University of Iowa Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
-        <div>
-          <h2 class="text-2xl font-semibold">NASA FILDA: Nighttime Fire Combustion Efficiency Product</h2>
-          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; University of Iowa</div>
-        </div>
-      </div>
-      <p class="mb-2">
-        Developed the NASA Fire Light Detection Algorithm (FILDA) Modified Combustion Efficiency Products. Collaborated with NASA GSFC's TIS Lab for daily near real-time automation.
-        <br>
-        <a href="https://viirsland.gsfc.nasa.gov/Products/NASA/FILDA_ESDR.html" target="_blank" class="text-blue-600 underline">More about FILDA</a>
+  <!-- MAIN HERO CONTENT -->
+  <main class="flex flex-col items-center justify-center text-center mt-24">
+    <div class="max-w-4xl mx-auto px-4">
+      <h1 class="text-5xl font-bold mb-4 tracking-tight">Meng Zhou</h1>
+      <p class="text-xl text-gray-500 mb-8">
+        Ph.D.,  Assistant Research Scientist <br>
+        NASA Goddard Space Flight Center & University of Maryland, Baltimore County
       </p>
-      <div class="flex flex-wrap gap-2 mt-3 mb-3">
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Automation</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Development</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Data Analysis</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Wildfire</span>
+      <div class="bg-gray-100 rounded-2xl shadow-lg p-6 mb-8">
+        <h2 class="text-2xl font-semibold mb-2">About</h2>
+        <p>
+          I develop algorithms for satellite-based wildfire and emission monitoring, with a focus on near real-time applications and model–data integration for air quality forecasting.
+        </p>
       </div>
-      <div>
-        <span class="font-semibold text-gray-700">Related Publication:</span>
-        <ul class="list-disc pl-6 text-blue-700">
-          <li>
-            <a href="https://doi.org/10.xxxx/xxxxxx" target="_blank">Zhou, M., et al. (2022). Nighttime Fire Detection with FILDA. <i>Remote Sensing of Environment</i>.</a>
-          </li>
-        </ul>
+      <div class="flex justify-center space-x-6 text-gray-500">
+        <span>meng.zhou@umbc.edu</span>
+        <span>|</span>
+        <a href="https://scholar.google.com/citations?user=9PWKigQAAAAJ&hl=en" target="_blank" class="hover:text-blue-600">Google Scholar</a>
       </div>
-    </section>
-
-    <!-- Project 2 -->
-    <section id="qfed" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
-      <div class="flex flex-col md:flex-row md:items-center mb-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA GSFC Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
-        <div>
-          <h2 class="text-2xl font-semibold">Satellite-derived Combustion Efficiency for Emissions in GEOS</h2>
-          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; NASA GSFC / GMAO</div>
-        </div>
-      </div>
-      <p class="mb-2">
-        Developed sub-pixel fire temperature/area estimation from FILDA-2 and integrated combustion efficiency into NASA QFED for weather and air quality forecasting.
-      </p>
-      <div class="flex flex-wrap gap-2 mt-3 mb-3">
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Wildfire</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Machine Learning</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Bayesian Inference</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Development</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Automation</span>
-      </div>
-      <div>
-        <span class="font-semibold text-gray-700">Related Publication:</span>
-        <ul class="list-disc pl-6 text-blue-700">
-          <li>
-            <a href="https://doi.org/10.xxxx/yyyyyy" target="_blank">Zhou, M., et al. (2023). Fire Emission Speciation Using Satellite Observations. <i>Journal of Geophysical Research</i>.</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Project 3 -->
-    <section id="firexaq" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
-      <div class="flex flex-col md:flex-row md:items-center mb-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/University_of_Iowa_seal.svg" alt="University of Iowa Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
-        <div>
-          <h2 class="text-2xl font-semibold">Post-Fire Analysis for NASA FIREX-AQ</h2>
-          <div class="text-gray-500 text-sm">Jan 2019 – Sep 2022 &bull; University of Iowa</div>
-        </div>
-      </div>
-      <p class="mb-2">
-        NASA Grant: 80NSSC18K0791. Supported post-fire analysis using data from the joint NOAA and NASA FIREX-AQ campaign.
-      </p>
-      <div class="flex flex-wrap gap-2 mt-3 mb-3">
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Remote Sensing</span>
-      </div>
-      <div>
-        <span class="font-semibold text-gray-700">Related Publication:</span>
-        <ul class="list-disc pl-6 text-blue-700">
-          <li>
-            <a href="https://doi.org/10.xxxx/zzzzzz" target="_blank">Zhou, M., et al. (2021). FIREX-AQ Field Campaign: Insights from Post-Fire Analysis. <i>Atmospheric Environment</i>.</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-
+    </div>
   </main>
+
+  <!-- OPTIONAL: Sections below for navigation targets -->
+  <section id="projects" class="pt-24 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Projects Overview</h2>
+      <ul class="list-disc pl-6 space-y-4 text-gray-800 text-lg">
+        <li>
+          <a href="project.html#filda" class="text-blue-700 hover:underline font-semibold">
+            NASA FILDA: Nighttime Fire Combustion Efficiency Product
+          </a>
+          <span class="block text-gray-500 text-sm ml-4">
+            University of Iowa (2020–present)
+          </span>
+        </li>
+        <li>
+          <a href="project.html#qfed" class="text-blue-700 hover:underline font-semibold">
+            Satellite-derived Combustion Efficiency for Emissions in GEOS
+          </a>
+          <span class="block text-gray-500 text-sm ml-4">
+            NASA GSFC / GMAO (2020–present)
+          </span>
+        </li>
+        <li>
+          <a href="project.html#qfirexaq" class="text-blue-700 hover:underline font-semibold">
+            Post-Fire Analysis for NASA FIREX-AQ
+          </a>
+          <span class="block text-gray-500 text-sm ml-4">
+            University of Iowa (2019–2022)
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <!---publications--->
+  <section id="publications" class="pt-5 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8">Featured Publications</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+ 
+         <!-- Publication 1 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1109/TGRS.2024.3470538" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Advancing FRP Retrieval: Bridging Theory and Application
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            Deng, Weizhi; <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Xue, Zhixin; Lu, Zhendong; Chen, Xi; Zhang, Huanxin; Peterson, David A; Hyer, Edward J; Da Silva, Arlindo M (2024)
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> Performing atmospheric correction reduces angular dependency of FRP retrieval.
+          </div>
+        </div>       
+        
+        <!-- Publication 2 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1109/TGRS.2023.3261664" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Enhancement of nighttime fire detection and combustion efficiency characterization using suomi-NPP and NOAA-20 VIIRS instruments
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Garcia, Lorena Castro; Chen, Xi; da Silva, Arlindo M; Wang, Zhuosen; Roman (2023).
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> The NASA FIre Light Detection Algorithm (FILDA) Fire Modified Combustion Efficiency Products
+          </div>
+        </div>
+        
+
+        
+        <!-- Publication 3 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1016/j.rse.2019.111466" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Detecting nighttime fire combustion phase by hybrid application of visible and infrared radiation from Suomi NPP VIIRS
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            Wang, Jun; Roudini, Sepehr; Hyer, Edward J; Xu, Xiaoguang; <span class="font-bold text-blue-800">Zhou, Meng</span>; Garcia, Lorena Castro; Reid, Jeffrey S; Peterson, David A; Da Silva, Arlindo M
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> First global characterization of fire combustion efficiency from space
+          </div>
+        </div>
+      </div>
+      <!-- Link to all publications -->
+      <div class="mt-8 text-center">
+        <a href="publication.html" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-xl font-medium shadow hover:bg-blue-700 transition">
+          See all publications
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="media" class="pt-5 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Media</h2>
+      <p class="text-gray-600">Media appearances, news, or public outreach here.</p>
+    </div>
+  </section>
 </body>
 </html>
+
