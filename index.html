@@ -26,7 +26,7 @@
 
   <!-- MAIN HERO CONTENT -->
   <main class="flex flex-col items-center justify-center text-center mt-24">
-    <div class="max-w-2xl w-full px-4">
+    <div class="max-w-4xl mx-auto px-4">
       <h1 class="text-5xl font-bold mb-4 tracking-tight">Meng Zhou</h1>
       <p class="text-xl text-gray-500 mb-8">
         Assistant Research Scientist <br>
@@ -47,31 +47,28 @@
   </main>
 
   <!-- OPTIONAL: Sections below for navigation targets -->
-  <section id="projects" class="pt-32 pb-12 bg-white">
-    <div class="max-w-3xl mx-auto px-4">
+  <section id="projects" class="pt-24 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
       <h2 class="text-2xl font-bold mb-6">Projects Overview</h2>
       <ul class="list-disc pl-6 space-y-4 text-gray-800 text-lg">
-        <!-- Project 1 -->
         <li>
-          <a href="project.html#filda" class="text-blue-700 hover:underline font-semibold">
+          <a href="project-filda.html" class="text-blue-700 hover:underline font-semibold">
             NASA FILDA: Nighttime Fire Combustion Efficiency Product
           </a>
           <span class="block text-gray-500 text-sm ml-4">
             University of Iowa (2020–present)
           </span>
         </li>
-        <!-- Project 2 -->
         <li>
-          <a href="project.html#qfed" class="text-blue-700 hover:underline font-semibold">
+          <a href="project-qfed.html" class="text-blue-700 hover:underline font-semibold">
             Satellite-derived Combustion Efficiency for Emissions in GEOS
           </a>
           <span class="block text-gray-500 text-sm ml-4">
             NASA GSFC / GMAO (2020–present)
           </span>
         </li>
-        <!-- Project 3 -->
         <li>
-          <a href="project.html#firexaq" class="text-blue-700 hover:underline font-semibold">
+          <a href="project-firexaq.html" class="text-blue-700 hover:underline font-semibold">
             Post-Fire Analysis for NASA FIREX-AQ
           </a>
           <span class="block text-gray-500 text-sm ml-4">
@@ -82,15 +79,70 @@
     </div>
   </section>
 
-  <section id="publications" class="pt-32 pb-12 bg-white">
-    <div class="max-w-3xl mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-4">Publications</h2>
-      <p class="text-gray-600">Highlight your selected publications here.</p>
+  
+  <!---publications--->
+  <section id="publications" class="pt-5 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8">Featured Publications</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+ 
+         <!-- Publication 1 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1097/JW9.0000000000000214" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Advancing FRP Retrieval: Bridging Theory and Application
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            Deng, Weizhi; <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Xue, Zhixin; Lu, Zhendong; Chen, Xi; Zhang, Huanxin; Peterson, David A; Hyer, Edward J; Da Silva, Arlindo M (2024)
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> Performing atmospheric correction reduces angular dependency of FRP retrieval.
+          </div>
+        </div>       
+        
+        <!-- Publication 2 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1016/j.rse.2025.114871" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Enhancement of nighttime fire detection and combustion efficiency characterization using suomi-NPP and NOAA-20 VIIRS instruments
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Garcia, Lorena Castro; Chen, Xi; da Silva, Arlindo M; Wang, Zhuosen; Roman (2023).
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> The NASA FIre Light Detection Algorithm (FILDA) Fire Modified Combustion Efficiency Products
+          </div>
+        </div>
+        
+
+        
+        <!-- Publication 3 -->
+        <div class="bg-gray-50 rounded-2xl shadow p-4 flex flex-col items-center">
+          <img src="https://placehold.co/120x90" alt="Paper figure" class="mb-4 rounded-lg shadow-sm">
+          <a href="https://doi.org/10.1016/j.rse.2021.112557" target="_blank" class="text-lg font-semibold text-blue-700 hover:underline text-center">
+            Detecting nighttime fire combustion phase by hybrid application of visible and infrared radiation from Suomi NPP VIIRS
+          </a>
+          <div class="text-gray-600 text-sm mt-2 text-center">
+            Wang, Jun; Roudini, Sepehr; Hyer, Edward J; Xu, Xiaoguang; <span class="font-bold text-blue-800">Zhou, Meng</span>; Garcia, Lorena Castro; Reid, Jeffrey S; Peterson, David A; Da Silva, Arlindo M
+          </div>
+          <div class="text-gray-500 text-xs mt-2 text-center">
+            <span class="font-medium">Topic:</span> First global characterization of fire combustion efficiency from space
+          </div>
+        </div>
+      </div>
+      <!-- Link to all publications -->
+      <div class="mt-8 text-center">
+        <a href="publication.html" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-xl font-medium shadow hover:bg-blue-700 transition">
+          See all publications
+        </a>
+      </div>
     </div>
   </section>
+  
+  
 
-  <section id="media" class="pt-32 pb-12 bg-white">
-    <div class="max-w-3xl mx-auto px-4">
+  <section id="media" class="pt-5 pb-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
       <h2 class="text-2xl font-bold mb-4">Media</h2>
       <p class="text-gray-600">Media appearances, news, or public outreach here.</p>
     </div>
