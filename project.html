@@ -6,7 +6,7 @@
   <title>Projects | Meng Zhou</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-gray-900 font-sans min-h-screen">
+<body class="bg-gray-50 text-gray-900 font-sans min-h-screen">
 
   <!-- Navbar -->
   <nav class="flex justify-end items-center p-6">
@@ -15,55 +15,23 @@
       <li><a href="project.html" class="text-blue-600 font-bold">Project</a></li>
       <li><a href="publication.html" class="hover:text-blue-600 transition">Publication</a></li>
       <li><a href="media.html" class="hover:text-blue-600 transition">Media</a></li>
-      <li><a href="award.html" class="hover:text-blue-600 transition">Award</a></li>
     </ul>
   </nav>
 
-  <main class="max-w-2xl mx-auto px-4 py-12">
+  <main class="max-w-4xl mx-auto px-4 py-12">
     <h1 class="text-4xl font-bold mb-10">Projects</h1>
 
     <!-- Project 1 -->
-    <section id="filda" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
-      <div class="flex flex-col md:flex-row md:items-center mb-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/University_of_Iowa_seal.svg" alt="University of Iowa Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
-        <div>
-          <h2 class="text-2xl font-semibold">NASA FILDA: Nighttime Fire Combustion Efficiency Product</h2>
-          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; University of Iowa</div>
-        </div>
-      </div>
-      <p class="mb-2">
-        Developed the NASA Fire Light Detection Algorithm (FILDA) Modified Combustion Efficiency Products. Collaborated with NASA GSFC's TIS Lab for daily near real-time automation.
-        <br>
-        <a href="https://viirsland.gsfc.nasa.gov/Products/NASA/FILDA_ESDR.html" target="_blank" class="text-blue-600 underline">More about FILDA</a>
-      </p>
-      <div class="flex flex-wrap gap-2 mt-3 mb-3">
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Automation</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Development</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Data Analysis</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Wildfire</span>
-      </div>
-      <div>
-        <span class="font-semibold text-gray-700">Related Publication:</span>
-        <ul class="list-disc pl-6 text-blue-700">
-          <li>
-            <a href="https://doi.org/10.xxxx/xxxxxx" target="_blank">Zhou, M., et al. (2022). Nighttime Fire Detection with FILDA. <i>Remote Sensing of Environment</i>.</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Project 2 -->
-    <section id="qfed" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
+    <section id="qfed" class="mb-10 bg-white rounded-2xl shadow p-6">
       <div class="flex flex-col md:flex-row md:items-center mb-3">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA GSFC Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
         <div>
           <h2 class="text-2xl font-semibold">Satellite-derived Combustion Efficiency for Emissions in GEOS</h2>
-          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; NASA GSFC / GMAO</div>
+          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; University of Iowa, NASA GSFC / GMAO</div>
         </div>
       </div>
       <p class="mb-2">
-        Developed sub-pixel fire temperature/area estimation from FILDA-2 and integrated combustion efficiency into NASA QFED for weather and air quality forecasting.
+        Developed sub-pixel fire temperature/area estimation,  MonteCarlo Bi-phasic Fire Property (McBEF) Algorithm, based on FILDA-2 and integrated combustion efficiency into NASA QFED for weather and air quality forecasting.
       </p>
       <div class="flex flex-wrap gap-2 mt-3 mb-3">
         <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
@@ -77,39 +45,133 @@
         <span class="font-semibold text-gray-700">Related Publication:</span>
         <ul class="list-disc pl-6 text-blue-700">
           <li>
-            <a href="https://doi.org/10.xxxx/yyyyyy" target="_blank">Zhou, M., et al. (2023). Fire Emission Speciation Using Satellite Observations. <i>Journal of Geophysical Research</i>.</a>
+            Manuscripts under review
           </li>
         </ul>
       </div>
-    </section>
-
-    <!-- Project 3 -->
-    <section id="firexaq" class="mb-10 bg-gray-50 rounded-2xl shadow p-6">
+    </section>    
+    
+    <!-- Project 2 -->
+    <section id="filda" class="mb-10 bg-white rounded-2xl shadow p-6">
       <div class="flex flex-col md:flex-row md:items-center mb-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/University_of_Iowa_seal.svg" alt="University of Iowa Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="University of Iowa Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
         <div>
-          <h2 class="text-2xl font-semibold">Post-Fire Analysis for NASA FIREX-AQ</h2>
-          <div class="text-gray-500 text-sm">Jan 2019 – Sep 2022 &bull; University of Iowa</div>
+          <h2 class="text-2xl font-semibold">NASA FILDA: Nighttime Fire Combustion Efficiency Product</h2>
+          <div class="text-gray-500 text-sm">Sep 2020 – Present &bull; University of Iowa, NASA GSFC / GMAO</div>
         </div>
       </div>
       <p class="mb-2">
-        NASA Grant: 80NSSC18K0791. Supported post-fire analysis using data from the joint NOAA and NASA FIREX-AQ campaign.
+        Developed the NASA Fire Light Detection Algorithm (FILDA) Modified Combustion Efficiency Products. Collaborated with NASA GSFC's TIS Lab for daily near real-time automation.
+        <br>
+        <a href="https://viirsland.gsfc.nasa.gov/Products/NASA/FILDA_ESDR.html" target="_blank" class="text-blue-600 underline">More about FILDA</a>
       </p>
       <div class="flex flex-wrap gap-2 mt-3 mb-3">
         <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Remote Sensing</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Automation</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Development</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Machine Learning</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Data Analysis</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Wildfire</span>
       </div>
       <div>
         <span class="font-semibold text-gray-700">Related Publication:</span>
         <ul class="list-disc pl-6 text-blue-700">
           <li>
-            <a href="https://doi.org/10.xxxx/zzzzzz" target="_blank">Zhou, M., et al. (2021). FIREX-AQ Field Campaign: Insights from Post-Fire Analysis. <i>Atmospheric Environment</i>.</a>
+            <a href="https://doi.org/10.1109/TGRS.2023.3261664" target="_blank">
+            <td class="px-3 py-2">
+              <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Garcia, Lorena Castro; Chen, Xi; da Silva, Arlindo M; Wang, Zhuosen; Roman (2023).
+              <span class="font-semibold">Enhancement of nighttime fire detection and combustion efficiency characterization using suomi-NPP and NOAA-20 VIIRS instruments</span>.
+              <i>IEEE Transactions on Geoscience and Remote Sensing</i>, 61, 1--20.
+            </td>
+            </a>
           </li>
+          
+           <li>
+            <a href="https://doi.org/10.1109/TGRS.2024.3470538" target="_blank">
+            <td class="px-3 py-2">
+              Deng, Weizhi; <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Xue, Zhixin; Lu, Zhendong; Chen, Xi; Zhang, Huanxin; Peterson, David A; Hyer, Edward J; Da Silva, Arlindo M (2024).
+              <span class="font-semibold">Advancing FRP Retrieval: Bridging Theory and Application</span>.
+              <i>IEEE Transactions on Geoscience and Remote Sensing</i>.
+            </td>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://doi.org/10.1016/j.rse.2020.111727" target="_blank">
+              <td class="px-3 py-2">
+                Wang, Jun; <span class="font-bold text-blue-800">Zhou, Meng</span>; Xu, Xiaoguang; Roudini, Sepehr; Sander, Stanley P; Pongetti, Thomas J; Miller, Steven D; Reid, Jeffrey S; Hyer, Edward; Spurr, Robert (2020).
+                <span class="font-semibold">Development of a nighttime shortwave radiative transfer model for remote sensing of nocturnal aerosols and fires from VIIRS</span>.
+                <i>Remote sensing of environment</i>, 241, 111727.
+              </td>
+            </a>
+          </li>
+          
+          
         </ul>
       </div>
     </section>
 
 
+    <!-- Project 3 -->
+    <section id="FINESST" class="mb-10 bg-white rounded-2xl shadow p-6">
+      <div class="flex flex-col md:flex-row md:items-center mb-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA GSFC Logo" class="w-12 h-12 rounded-xl mr-4 mb-2 md:mb-0">
+        <div>
+          <h2 class="text-2xl font-semibold">Nighttime aerosol optical depth retrieval from VIIRS DNB and its application for surface PM2.5 estimation</h2>
+          <div class="text-gray-500 text-sm">Sep 2021 – 2023 &bull; University of Iowa</div>
+        </div>
+      </div>
+      <p class="mb-2">
+        Niggttime aerosol retrieval using moonlight observation from VIIRS DNB
+      </p>
+      <div class="flex flex-wrap gap-2 mt-3 mb-3">
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Python</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Remote Sensing</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Aerosol</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Machine Learning</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Development</span>
+        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Algorithm Automation</span>
+      </div>
+      <div>
+        <span class="font-semibold text-gray-700">Related Publication:</span>
+        <ul class="list-disc pl-6 text-blue-700">
+          
+          <li>
+            <a href="https://doi.org/10.1016/j.rse.2024.114315" target="_blank">
+              <td class="px-3 py-2">
+                <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Chen, Xi; Wang, Yi; Colarco, Peter R; Levy, Robert C; Miller, Steven D (2024).
+                <span class="font-semibold">First lunar-light mapping of nighttime dust season oceanic aerosol optical depth over North Atlantic from space</span>.
+                <i>Remote sensing of environment</i>, 312, 114315.
+              </td>
+            </a>     
+          </li>
+          
+          <li>
+            <a href="https://doi.org/10.1016/j.rse.2021.112717" target="_blank">
+              <td class="px-3 py-2">
+                <span class="font-bold text-blue-800">Zhou, Meng</span>; Wang, Jun; Chen, Xi; Xu, Xiaoguang; Colarco, Peter R; Miller, Steven D; Reid, Jeffrey S; Kondragunta, Shobha; Giles, David Matthew; Holben, Brent (2021).
+                <span class="font-semibold">Nighttime smoke aerosol optical depth over US rural areas: First retrieval from VIIRS moonlight observations</span>.
+                <i>Remote sensing of environment</i>, 267, 112717.
+              </td>
+            </a>   
+          </li>
+          <li>
+            <a href="https://doi.org/10.1016/j.rse.2020.111727" target="_blank">
+              <td class="px-3 py-2">
+                Wang, Jun; <span class="font-bold text-blue-800">Zhou, Meng</span>; Xu, Xiaoguang; Roudini, Sepehr; Sander, Stanley P; Pongetti, Thomas J; Miller, Steven D; Reid, Jeffrey S; Hyer, Edward; Spurr, Robert (2020).
+                <span class="font-semibold">Development of a nighttime shortwave radiative transfer model for remote sensing of nocturnal aerosols and fires from VIIRS</span>.
+                <i>Remote sensing of environment</i>, 241, 111727.
+              </td
+           </a>
+          </li>
+
+          
+        </ul>
+      </div>
+    </section>    
+    
+    
   </main>
 </body>
 </html>
